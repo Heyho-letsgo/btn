@@ -4,7 +4,8 @@ source 'https://rubygems.org'
 # pour protéger les credentials : https://github.com/bkeepers/dotenv
 gem 'dotenv-rails', :groups => [:development, :test]
 
-
+# Pour que ce soit joli...
+gem 'twitter-bootstrap-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
 # Use sqlite3 as the database for Active Record
