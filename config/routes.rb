@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :visiteurs
+
   root "home#show"
   get "gemutile" => 'gemutile#show'
   get "projetweblove" => 'projetweblove#show'
